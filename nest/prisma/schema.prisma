@@ -19,7 +19,7 @@ model user{
   upDatedAt DateTime @updatedAt
 
   name String?
-  email String
+  email String @unique
   hash String
 }
 
