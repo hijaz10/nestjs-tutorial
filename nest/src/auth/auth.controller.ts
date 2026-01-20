@@ -4,7 +4,7 @@ import { Authdto } from 'src/dto';
 
 @Controller('auth')
 export class Authcontroller {
-    constructor(private authservice: AuthService){}
+    constructor(private authservice: AuthService ){}
 
     @Post('signup')
     signup(@Body() dto: Authdto){
